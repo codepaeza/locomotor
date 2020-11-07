@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paez.edwin.locomotor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/intro"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ListaUnoActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ListaDosActivity"
+            android:parentActivityName=".ListaUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ListaTresActivity"
+            android:parentActivityName=".ListaUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".LocomotoraActivity"
+            android:parentActivityName=".ListaDosActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".EstacionTrenActivity"
+            android:parentActivityName=".ListaDosActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".PuenteFerreoActivity"
+            android:parentActivityName=".ListaDosActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".PuenteOspinaActivity"
+            android:parentActivityName=".ListaDosActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".CamellonComercioActivity"
+            android:parentActivityName=".ListaDosActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".PlazaMercadoActivity"
+            android:parentActivityName=".ListaDosActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ParqueBolivarActivity"
+            android:parentActivityName=".ListaTresActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".CatedralActivity"
+            android:parentActivityName=".ListaTresActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".BanrepActivity"
+            android:parentActivityName=".ListaTresActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".IglesiaSanmiguelActivity"
+            android:parentActivityName=".ListaTresActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".MonumBogaActivity"
+            android:parentActivityName=".ListaTresActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".MonumLeonActivity"
+            android:parentActivityName=".ListaTresActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+</manifest>
